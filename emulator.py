@@ -66,7 +66,7 @@ def emulateHHL(A, b, shots=2048, figfile='emulator.png', dpi=300):
 
     # Plot the histogram with exact y-values on top of the bars.
     fig, ax = plt.subplots()
-    bars = ax.bar(x_values, probabilities, color='blue', alpha=0.7)
+    bars = ax.bar(x_values, probabilities)
     for bar, prob in zip(bars, probabilities):
         yval = bar.get_height()
         ax.text(
