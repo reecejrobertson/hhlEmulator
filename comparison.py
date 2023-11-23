@@ -37,13 +37,14 @@ def applyToffoli(psi, a, b, c):
     psi.ApplyCPauliX(b, c)
     psi.ApplyRotationZ(c, -np.pi/4.)
     psi.ApplyCPauliX(a, c)
-    psi.ApplyRotationZ(b, np.pi/4.)
+    psi.ApplyRotationZ(b, -np.pi/4.)
     psi.ApplyRotationZ(c, np.pi/4.)
     psi.ApplyCPauliX(a, b)
     psi.ApplyHadamard(c)
-    psi.ApplyRotationZ(a, np.pi/4.)
     psi.ApplyRotationZ(b, -np.pi/4.)
     psi.ApplyCPauliX(a, b)
+    psi.ApplyRotationZ(a, np.pi/4.)
+    psi.ApplyRotationZ(b, np.pi/2.)
     return psi
 
 def RY1(psi):
@@ -62,5 +63,5 @@ def RY2(psi):
     psi = applyToffoli(psi, 1, 2, 5)
     return psi
 
-runExperiment(np.array([[1 , -1/3], [-1/3 , 1]]), np.array([0, 1]), RY1, 3 * np.pi / 4, 4, 0, emFig='em1.png', simFig='sim1.png')
-runExperiment(np.array([[13/2., -1/2.], [-1/2., 13/2]]), np.array([0, 1]), RY2, np.pi/4, 5, 2, emFig='em2.png', simFig='sim2.png')
+# runExperiment(np.array([[1 , -1/3], [-1/3 , 1]]), np.array([0, 1]), RY1, 3 * np.pi / 4, 4, 0, emFig='em1.png', simFig='sim1.png')
+runExperiment(np.array([[13/2., -1/2.], [-1/2., 13/2]]), np.array([0, 1]), RY2, np.pi/4, 5, 2, shots=100, emFig='em2.png', simFig='sim2.png')
