@@ -1,0 +1,21 @@
+Begin Experiment
+A=[[ 1.   -0.33],[-0.33  1.  ]], b=[0 1]
+Actual x        : [0.1 0.9]
+Simulated x     : [0.10579937 0.89420063]
+Emulated x      : [0.10278207 0.89721793]
+Sim Time        : 21.362706899642944
+Em Time         : 0.0030126571655273438
+Sim Avg Time    : 0.010431009228341281
+Em Avg Time     : 1.4710240066051483e-06
+End Experiment
+
+Begin Experiment
+A=[[ 6.5 -0.5],[-0.5  6.5]], b=[0 1]
+Actual x        : [0.00588235 0.99411765]
+Simulated x     : [0.00278552 0.99721448]
+Emulated x      : [0.00782998 0.99217002]
+Sim Time        : 274.66463685035706
+Em Time         : 0.003126382827758789
+Sim Avg Time    : 0.1341135922120884
+Em Avg Time     : 1.5265541151165962e-06
+End Experiment
