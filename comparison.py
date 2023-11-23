@@ -54,14 +54,14 @@ def RY1(psi):
 
 def RY2(psi):
     psi = applyToffoli(psi, 2, 3, 5)
-    psi.ApplyCRotationY(5, 0, 2*np.arcsin(1/6))
+    psi.ApplyCRotationY(5, 0, np.pi)
     psi = applyToffoli(psi, 2, 3, 5)
     psi = applyToffoli(psi, 1, 2, 5)
     psi = applyToffoli(psi, 3, 5, 6)
-    psi.ApplyCRotationY(6, 0, 2*np.arcsin(1/7))
+    psi.ApplyCRotationY(6, 0, np.pi/3.)
     psi = applyToffoli(psi, 3, 5, 6)
     psi = applyToffoli(psi, 1, 2, 5)
     return psi
 
-# runExperiment(np.array([[1 , -1/3], [-1/3 , 1]]), np.array([0, 1]), RY1, 3 * np.pi / 4, 4, 0, emFig='em1.png', simFig='sim1.png')
-runExperiment(np.array([[13/2., -1/2.], [-1/2., 13/2]]), np.array([0, 1]), RY2, np.pi/4, 5, 2, shots=100, emFig='em2.png', simFig='sim2.png')
+runExperiment(np.array([[1 , -1/3], [-1/3 , 1]]), np.array([0, 1]), RY1, 3 * np.pi / 4, 4, 0, emFig='em1.png', simFig='sim1.png')
+runExperiment(np.array([[13/2., -1/2.], [-1/2., 13/2]]), np.array([0, 1]), RY2, np.pi/4, 5, 2, emFig='em2.png', simFig='sim2.png')
