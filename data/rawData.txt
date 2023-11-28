@@ -1,0 +1,229 @@
+========== Iteration 1 ==========
+Begin Experiment
+A=[[ 1.   -0.33],[-0.33  1.  ]], b=[0 1]
+Actual x        : [0.1 0.9]
+Simulated x     : [0.09441385 0.90558615]
+Emulated x      : [0.09811617 0.90188383]
+Sim Time        : 2.0251598358154297
+Em Time         : 0.0746450424194336
+Sim Avg Time    : 0.0009888475760817528
+Em Avg Time     : 3.644777461886406e-05
+End Experiment
+
+Begin Experiment
+A=[[ 6.5 -0.5],[-0.5  6.5]], b=[0 1]
+Actual x        : [0.00588235 0.99411765]
+Simulated x     : [0.00560852 0.99439148]
+Emulated x      : [0.00453001 0.99546999]
+Sim Time        : 28.125778198242188
+Em Time         : 0.0782618522644043
+Sim Avg Time    : 0.013733290135860443
+Em Avg Time     : 3.821379505097866e-05
+End Experiment
+
+========== Iteration 2 ==========
+Begin Experiment
+A=[[ 1.   -0.33],[-0.33  1.  ]], b=[0 1]
+Actual x        : [0.1 0.9]
+Simulated x     : [0.09224806 0.90775194]
+Emulated x      : [0.08878505 0.91121495]
+Sim Time        : 2.129953145980835
+Em Time         : 0.08041930198669434
+Sim Avg Time    : 0.0010400161845609546
+Em Avg Time     : 3.9267237298190594e-05
+End Experiment
+
+Begin Experiment
+A=[[ 6.5 -0.5],[-0.5  6.5]], b=[0 1]
+Actual x        : [0.00588235 0.99411765]
+Simulated x     : [0.0039128 0.9960872]
+Emulated x      : [0.01005025 0.98994975]
+Sim Time        : 29.11950922012329
+Em Time         : 0.08070492744445801
+Sim Avg Time    : 0.014218510361388326
+Em Avg Time     : 3.940670285373926e-05
+End Experiment
+
+========== Iteration 3 ==========
+Begin Experiment
+A=[[ 1.   -0.33],[-0.33  1.  ]], b=[0 1]
+Actual x        : [0.1 0.9]
+Simulated x     : [0.0976378 0.9023622]
+Emulated x      : [0.0875969 0.9124031]
+Sim Time        : 2.1958069801330566
+Em Time         : 0.08034539222717285
+Sim Avg Time    : 0.001072171377018094
+Em Avg Time     : 3.9231148548424244e-05
+End Experiment
+
+Begin Experiment
+A=[[ 6.5 -0.5],[-0.5  6.5]], b=[0 1]
+Actual x        : [0.00588235 0.99411765]
+Simulated x     : [0.00390843 0.99609157]
+Emulated x      : [0.00680272 0.99319728]
+Sim Time        : 29.15192747116089
+Em Time         : 0.07499408721923828
+Sim Avg Time    : 0.014234339585527778
+Em Avg Time     : 3.661820665001869e-05
+End Experiment
+
+========== Iteration 4 ==========
+Begin Experiment
+A=[[ 1.   -0.33],[-0.33  1.  ]], b=[0 1]
+Actual x        : [0.1 0.9]
+Simulated x     : [0.09761905 0.90238095]
+Emulated x      : [0.1060241 0.8939759]
+Sim Time        : 2.26423716545105
+Em Time         : 0.07700324058532715
+Sim Avg Time    : 0.0011055845534428954
+Em Avg Time     : 3.759923856705427e-05
+End Experiment
+
+Begin Experiment
+A=[[ 6.5 -0.5],[-0.5  6.5]], b=[0 1]
+Actual x        : [0.00588235 0.99411765]
+Simulated x     : [0.00606061 0.99393939]
+Emulated x      : [0.00502793 0.99497207]
+Sim Time        : 30.644139528274536
+Em Time         : 0.0751800537109375
+Sim Avg Time    : 0.0149629587540403
+Em Avg Time     : 3.67090106010437e-05
+End Experiment
+
+========== Iteration 5 ==========
+Begin Experiment
+A=[[ 1.   -0.33],[-0.33  1.  ]], b=[0 1]
+Actual x        : [0.1 0.9]
+Simulated x     : [0.09800797 0.90199203]
+Emulated x      : [0.10031348 0.89968652]
+Sim Time        : 2.2291109561920166
+Em Time         : 0.0755159854888916
+Sim Avg Time    : 0.001088433084078133
+Em Avg Time     : 3.687303978949785e-05
+End Experiment
+
+Begin Experiment
+A=[[ 6.5 -0.5],[-0.5  6.5]], b=[0 1]
+Actual x        : [0.00588235 0.99411765]
+Simulated x     : [0.00276549 0.99723451]
+Emulated x      : [0.00732394 0.99267606]
+Sim Time        : 30.662418842315674
+Em Time         : 0.07638001441955566
+Sim Avg Time    : 0.01497188420034945
+Em Avg Time     : 3.7294928915798664e-05
+End Experiment
+
+========== Iteration 6 ==========
+Begin Experiment
+A=[[ 1.   -0.33],[-0.33  1.  ]], b=[0 1]
+Actual x        : [0.1 0.9]
+Simulated x     : [0.09916095 0.90083905]
+Emulated x      : [0.08855799 0.91144201]
+Sim Time        : 2.222038745880127
+Em Time         : 0.07525920867919922
+Sim Avg Time    : 0.0010849798563867807
+Em Avg Time     : 3.6747660487890244e-05
+End Experiment
+
+Begin Experiment
+A=[[ 6.5 -0.5],[-0.5  6.5]], b=[0 1]
+Actual x        : [0.00588235 0.99411765]
+Simulated x     : [0.00556793 0.99443207]
+Emulated x      : [0.00338792 0.99661208]
+Sim Time        : 30.804908752441406
+Em Time         : 0.07535171508789062
+Sim Avg Time    : 0.01504145935177803
+Em Avg Time     : 3.6792829632759094e-05
+End Experiment
+
+========== Iteration 7 ==========
+Begin Experiment
+A=[[ 1.   -0.33],[-0.33  1.  ]], b=[0 1]
+Actual x        : [0.1 0.9]
+Simulated x     : [0.09441708 0.90558292]
+Emulated x      : [0.08105939 0.91894061]
+Sim Time        : 2.300187587738037
+Em Time         : 0.07564640045166016
+Sim Avg Time    : 0.0011231384705752134
+Em Avg Time     : 3.6936718970537186e-05
+End Experiment
+
+Begin Experiment
+A=[[ 6.5 -0.5],[-0.5  6.5]], b=[0 1]
+Actual x        : [0.00588235 0.99411765]
+Simulated x     : [0.00442478 0.99557522]
+Emulated x      : [0.00452233 0.99547767]
+Sim Time        : 31.151451349258423
+Em Time         : 0.07627606391906738
+Sim Avg Time    : 0.01521066960413009
+Em Avg Time     : 3.724417183548212e-05
+End Experiment
+
+========== Iteration 8 ==========
+Begin Experiment
+A=[[ 1.   -0.33],[-0.33  1.  ]], b=[0 1]
+Actual x        : [0.1 0.9]
+Simulated x     : [0.09711684 0.90288316]
+Emulated x      : [0.09098101 0.90901899]
+Sim Time        : 2.2549827098846436
+Em Time         : 0.07528877258300781
+Sim Avg Time    : 0.0011010657763108611
+Em Avg Time     : 3.6762095987796783e-05
+End Experiment
+
+Begin Experiment
+A=[[ 6.5 -0.5],[-0.5  6.5]], b=[0 1]
+Actual x        : [0.00588235 0.99411765]
+Simulated x     : [0.00680658 0.99319342]
+Emulated x      : [0.00841279 0.99158721]
+Sim Time        : 30.744218587875366
+Em Time         : 0.07666134834289551
+Sim Avg Time    : 0.015011825482361019
+Em Avg Time     : 3.743229899555445e-05
+End Experiment
+
+========== Iteration 9 ==========
+Begin Experiment
+A=[[ 1.   -0.33],[-0.33  1.  ]], b=[0 1]
+Actual x        : [0.1 0.9]
+Simulated x     : [0.08602151 0.91397849]
+Emulated x      : [0.10697674 0.89302326]
+Sim Time        : 2.237511157989502
+Em Time         : 0.07520937919616699
+Sim Avg Time    : 0.0010925347451120615
+Em Avg Time     : 3.6723329685628414e-05
+End Experiment
+
+Begin Experiment
+A=[[ 6.5 -0.5],[-0.5  6.5]], b=[0 1]
+Actual x        : [0.00588235 0.99411765]
+Simulated x     : [0.00226886 0.99773114]
+Emulated x      : [0.01120448 0.98879552]
+Sim Time        : 30.636584758758545
+Em Time         : 0.07940268516540527
+Sim Avg Time    : 0.01495926990173757
+Em Avg Time     : 3.8770842365920544e-05
+End Experiment
+
+========== Iteration 10 ==========
+Begin Experiment
+A=[[ 1.   -0.33],[-0.33  1.  ]], b=[0 1]
+Actual x        : [0.1 0.9]
+Simulated x     : [0.09163987 0.90836013]
+Emulated x      : [0.09278351 0.90721649]
+Sim Time        : 2.228330373764038
+Em Time         : 0.0776224136352539
+Sim Avg Time    : 0.0010880519403144717
+Em Avg Time     : 3.790156915783882e-05
+End Experiment
+
+Begin Experiment
+A=[[ 6.5 -0.5],[-0.5  6.5]], b=[0 1]
+Actual x        : [0.00588235 0.99411765]
+Simulated x     : [0.00390407 0.99609593]
+Emulated x      : [0.00452233 0.99547767]
+Sim Time        : 30.808528900146484
+Em Time         : 0.0751338005065918
+Sim Avg Time    : 0.01504322700202465
+Em Avg Time     : 3.6686426028609276e-05
+End Experiment
