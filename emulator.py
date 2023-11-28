@@ -21,28 +21,30 @@ def emulateHHL(A, b, shots=2048, figfile='emulator.png', dpi=300):
     # Note the time before starting the emulation proper.
     startTime = time.time()
 
-    # Compute the eigenvalues and eigenvectors of A.
-    evals, evecs = np.linalg.eig(A)
-
-    # Compute the coefficients to represent b in the eigenbasis of A.
-    beta = np.linalg.solve(evecs, b)
-
-    # Get c, which we take to be the minimal eigenvalue.
-    c = min(evals)
-
-    # Compute the state of the anscilla qubit as given in the fourth equation.
-    a = np.array([np.sqrt(1 - c**2/evals**2), c/evals])
-
-    # Generate the complete state according to the forth equation and normalize.
-    psi = np.kron(beta * evecs, a)
-    psi = psi[:,1] + psi[:,2]
-    psi = psi /np.linalg.norm(psi)
-
     # Create a dict for the measure count of the states |00>, |01>, |10>, |11>.
     measure_count = {'00': 0, '01': 0, '10': 0, '11': 0}
 
-    # Sample from the distribution 'shots' times.
+    # Repeat the following experiment 'shots' times.
     for i in range(shots):
+
+        # Compute the eigenvalues and eigenvectors of A.
+        evals, evecs = np.linalg.eig(A)
+
+        # Compute the coefficients to represent b in the eigenbasis of A.
+        beta = np.linalg.solve(evecs, b)
+
+        # Get c, which we take to be the minimal eigenvalue.
+        c = min(evals)
+
+        # Compute the state of the anscilla qubit as given in the fourth equation.
+        a = np.array([np.sqrt(1 - c**2/evals**2), c/evals])
+
+        # Generate the complete state according to the forth equation and normalize.
+        psi = np.kron(beta * evecs, a)
+        psi = psi[:,1] + psi[:,2]
+        psi = psi /np.linalg.norm(psi)
+
+        # Sample from the distribution.
         r = np.random.rand()
         if r < psi[0]**2:
             measure_count['00'] += 1
